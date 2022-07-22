@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer",
+  "version": "8.11.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Minh",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^15.4.1",
+    "xlsx": "^0.18.5"
+  }
+}
