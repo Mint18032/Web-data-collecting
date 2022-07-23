@@ -13,11 +13,11 @@ async function scrapeAll(browserInstance) {
 		try {
 			const file = XLSX.readFile('./result.xlsx');
 			const ws = XLSX.utils.json_to_sheet(scrapedData);
-			// Adjust collum width.
+			// Adjust column width.
 			let wscols = [
 				{ wpx: 1190 },
 				{ wpx: 90 },
-				{ wpx: 60 },
+				{ wpx: 75 },
 				{ wpx: 250 }
 			];
 			ws['!cols'] = wscols;
